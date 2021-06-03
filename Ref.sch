@@ -1,0 +1,423 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_Coaxial_Power J9
+U 1 1 60B97AB3
+P 2300 1700
+F 0 "J9" H 2388 1696 50  0000 L CNN
+F 1 "Conn_Coaxial_Power" H 2388 1605 50  0000 L CNN
+F 2 "" H 2300 1650 50  0001 C CNN
+F 3 "~" H 2300 1650 50  0001 C CNN
+	1    2300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial_Power J11
+U 1 1 60B9859F
+P 5550 1750
+F 0 "J11" H 5638 1746 50  0000 L CNN
+F 1 "Conn_Coaxial_Power" H 5638 1655 50  0000 L CNN
+F 2 "" H 5550 1700 50  0001 C CNN
+F 3 "~" H 5550 1700 50  0001 C CNN
+	1    5550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 60BB6B4E
+P 2300 2400
+F 0 "#PWR0105" H 2300 2150 50  0001 C CNN
+F 1 "GND" H 2305 2227 50  0000 C CNN
+F 2 "" H 2300 2400 50  0001 C CNN
+F 3 "" H 2300 2400 50  0001 C CNN
+	1    2300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60BB6CC0
+P 5550 2400
+F 0 "#PWR0106" H 5550 2150 50  0001 C CNN
+F 1 "GND" H 5555 2227 50  0000 C CNN
+F 2 "" H 5550 2400 50  0001 C CNN
+F 3 "" H 5550 2400 50  0001 C CNN
+	1    5550 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1900 2300 2200
+Wire Wire Line
+	5550 1950 5550 2200
+Wire Wire Line
+	2300 1600 2300 1500
+Wire Wire Line
+	5550 1650 5550 1500
+Text Label 2300 1450 0    50   ~ 0
+1V8_g
+Text Label 5550 1500 0    50   ~ 0
+0V9_g
+Text Notes 7450 7500 0    50   ~ 0
+Power and reference 
+Text Notes 9000 7500 0    50   ~ 0
+Fatima Mehrez
+Text Notes 10600 7650 0    50   ~ 0
+V1
+Text Notes 8250 7650 0    50   ~ 0
+Mai 2021
+$Comp
+L Device:C C12
+U 1 1 60BBB22A
+P 1900 1800
+F 0 "C12" H 2015 1846 50  0000 L CNN
+F 1 "10n" H 2015 1755 50  0000 L CNN
+F 2 "" H 1938 1650 50  0001 C CNN
+F 3 "~" H 1900 1800 50  0001 C CNN
+	1    1900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 60BBB714
+P 5100 1850
+F 0 "C22" H 5215 1896 50  0000 L CNN
+F 1 "10n" H 5215 1805 50  0000 L CNN
+F 2 "" H 5138 1700 50  0001 C CNN
+F 3 "~" H 5100 1850 50  0001 C CNN
+	1    5100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 60BBF5D4
+P 1350 1800
+F 0 "C1" H 1468 1846 50  0000 L CNN
+F 1 "1u" H 1468 1755 50  0000 L CNN
+F 2 "" H 1388 1650 50  0001 C CNN
+F 3 "~" H 1350 1800 50  0001 C CNN
+	1    1350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 60BBFECB
+P 4600 1850
+F 0 "C2" H 4718 1896 50  0000 L CNN
+F 1 "1u" H 4718 1805 50  0000 L CNN
+F 2 "" H 4638 1700 50  0001 C CNN
+F 3 "~" H 4600 1850 50  0001 C CNN
+	1    4600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2200 1900 2200
+Wire Wire Line
+	1350 1950 1350 2200
+Connection ~ 2300 2200
+Wire Wire Line
+	2300 2200 2300 2400
+Wire Wire Line
+	1900 1950 1900 2200
+Connection ~ 1900 2200
+Wire Wire Line
+	1900 2200 2300 2200
+Wire Wire Line
+	1900 1650 1900 1500
+Wire Wire Line
+	1900 1500 2300 1500
+Connection ~ 2300 1500
+Wire Wire Line
+	2300 1500 2300 1300
+Wire Wire Line
+	1900 1500 1350 1500
+Wire Wire Line
+	1350 1500 1350 1650
+Connection ~ 1900 1500
+Wire Wire Line
+	4600 1700 4600 1500
+Wire Wire Line
+	4600 1500 5100 1500
+Connection ~ 5550 1500
+Wire Wire Line
+	5550 1500 5550 1350
+Wire Wire Line
+	5100 1700 5100 1500
+Connection ~ 5100 1500
+Wire Wire Line
+	5100 1500 5550 1500
+Wire Wire Line
+	4600 2000 4600 2200
+Wire Wire Line
+	4600 2200 5100 2200
+Connection ~ 5550 2200
+Wire Wire Line
+	5550 2200 5550 2400
+Wire Wire Line
+	5100 2000 5100 2200
+Connection ~ 5100 2200
+Wire Wire Line
+	5100 2200 5550 2200
+$Comp
+L Connector:Conn_Coaxial_Power J13
+U 1 1 60BC5142
+P 8500 1750
+F 0 "J13" H 8588 1746 50  0000 L CNN
+F 1 "Conn_Coaxial_Power" H 8588 1655 50  0000 L CNN
+F 2 "" H 8500 1700 50  0001 C CNN
+F 3 "~" H 8500 1700 50  0001 C CNN
+	1    8500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C32
+U 1 1 60BCA95A
+P 8050 1850
+F 0 "C32" H 8165 1896 50  0000 L CNN
+F 1 "10n" H 8165 1805 50  0000 L CNN
+F 2 "" H 8088 1700 50  0001 C CNN
+F 3 "~" H 8050 1850 50  0001 C CNN
+	1    8050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 60BCA960
+P 7550 1850
+F 0 "C3" H 7668 1896 50  0000 L CNN
+F 1 "1u" H 7668 1805 50  0000 L CNN
+F 2 "" H 7588 1700 50  0001 C CNN
+F 3 "~" H 7550 1850 50  0001 C CNN
+	1    7550 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1700 7550 1500
+Wire Wire Line
+	7550 1500 8050 1500
+Wire Wire Line
+	8050 1700 8050 1500
+Connection ~ 8050 1500
+Wire Wire Line
+	8050 1500 8500 1500
+Wire Wire Line
+	7550 2000 7550 2200
+Wire Wire Line
+	7550 2200 8050 2200
+Wire Wire Line
+	8050 2000 8050 2200
+Connection ~ 8050 2200
+Wire Wire Line
+	8050 2200 8500 2200
+$Comp
+L power:GND #PWR0107
+U 1 1 60BCB114
+P 8500 2450
+F 0 "#PWR0107" H 8500 2200 50  0001 C CNN
+F 1 "GND" H 8505 2277 50  0000 C CNN
+F 2 "" H 8500 2450 50  0001 C CNN
+F 3 "" H 8500 2450 50  0001 C CNN
+	1    8500 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2450 8500 2200
+Connection ~ 8500 2200
+Wire Wire Line
+	8500 2200 8500 1950
+Wire Wire Line
+	8500 1650 8500 1500
+Connection ~ 8500 1500
+Wire Wire Line
+	8500 1500 8500 1350
+Text Label 8500 1500 0    50   ~ 0
+1V14_g
+NoConn ~ 4650 1850
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 60C140C3
+P 2100 3200
+AR Path="/60C140C3" Ref="J?"  Part="1" 
+AR Path="/60B90C78/60C140C3" Ref="J10"  Part="1" 
+F 0 "J10" H 2208 3381 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 2208 3290 50  0000 C CNN
+F 2 "" H 2100 3200 50  0001 C CNN
+F 3 "~" H 2100 3200 50  0001 C CNN
+	1    2100 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 3200 1500 3200
+Text Label 1500 3200 0    50   ~ 0
+1V8_g
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 60C1576F
+P 5350 3200
+AR Path="/60C1576F" Ref="J?"  Part="1" 
+AR Path="/60B90C78/60C1576F" Ref="J12"  Part="1" 
+F 0 "J12" H 5458 3381 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 5458 3290 50  0000 C CNN
+F 2 "" H 5350 3200 50  0001 C CNN
+F 3 "~" H 5350 3200 50  0001 C CNN
+	1    5350 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 3200 4750 3200
+Text Label 4750 3200 0    50   ~ 0
+0V9_g
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 60C16B56
+P 8300 3150
+AR Path="/60C16B56" Ref="J?"  Part="1" 
+AR Path="/60B90C78/60C16B56" Ref="J14"  Part="1" 
+F 0 "J14" H 8408 3331 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 8408 3240 50  0000 C CNN
+F 2 "" H 8300 3150 50  0001 C CNN
+F 3 "~" H 8300 3150 50  0001 C CNN
+	1    8300 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8100 3150 7800 3150
+Text Label 7700 3150 0    50   ~ 0
+1V14_g
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 60C435C4
+P 3000 4500
+AR Path="/60C435C4" Ref="J?"  Part="1" 
+AR Path="/60B90C78/60C435C4" Ref="J17"  Part="1" 
+F 0 "J17" H 3108 4681 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 3108 4590 50  0000 C CNN
+F 2 "" H 3000 4500 50  0001 C CNN
+F 3 "~" H 3000 4500 50  0001 C CNN
+	1    3000 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 60C435CA
+P 7000 5200
+AR Path="/60C435CA" Ref="J?"  Part="1" 
+AR Path="/60B90C78/60C435CA" Ref="J20"  Part="1" 
+F 0 "J20" H 7108 5381 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 7108 5290 50  0000 C CNN
+F 2 "" H 7000 5200 50  0001 C CNN
+F 3 "~" H 7000 5200 50  0001 C CNN
+	1    7000 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 60C435D0
+P 7000 4850
+AR Path="/60C435D0" Ref="J?"  Part="1" 
+AR Path="/60B90C78/60C435D0" Ref="J19"  Part="1" 
+F 0 "J19" H 7108 5031 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 7108 4940 50  0000 C CNN
+F 2 "" H 7000 4850 50  0001 C CNN
+F 3 "~" H 7000 4850 50  0001 C CNN
+	1    7000 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J?
+U 1 1 60C435D6
+P 7000 4500
+AR Path="/60C435D6" Ref="J?"  Part="1" 
+AR Path="/60B90C78/60C435D6" Ref="J18"  Part="1" 
+F 0 "J18" H 7108 4681 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 7108 4590 50  0000 C CNN
+F 2 "" H 7000 4500 50  0001 C CNN
+F 3 "~" H 7000 4500 50  0001 C CNN
+	1    7000 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 4500 6400 4500
+Text Label 6650 4500 2    50   ~ 0
+VM_diff
+Wire Wire Line
+	6800 4850 6400 4850
+Text Label 6600 4850 2    50   ~ 0
+VM_M
+Wire Wire Line
+	6800 5200 6400 5200
+Text Label 6600 5200 2    50   ~ 0
+VM_O
+Text Label 2400 4500 0    50   ~ 0
+gnd
+$Comp
+L power:GND #PWR?
+U 1 1 60C435E3
+P 2400 4700
+AR Path="/60C435E3" Ref="#PWR?"  Part="1" 
+AR Path="/60B90C78/60C435E3" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 2400 4450 50  0001 C CNN
+F 1 "GND" H 2405 4527 50  0000 C CNN
+F 2 "" H 2400 4700 50  0001 C CNN
+F 3 "" H 2400 4700 50  0001 C CNN
+	1    2400 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4500 2400 4500
+Wire Wire Line
+	2400 4500 2400 4700
+Wire Wire Line
+	7800 3700 7800 3150
+Connection ~ 7800 3150
+Wire Wire Line
+	7800 3150 7700 3150
+Text Label 8150 3600 0    50   ~ 0
+VIbias
+Wire Wire Line
+	7800 3700 8450 3700
+Wire Wire Line
+	8450 4150 8000 4150
+Text Label 8200 4150 0    50   ~ 0
+Vbi
+$Comp
+L Connector:Conn_01x02_Male J15
+U 1 1 60D0FBC3
+P 8650 3700
+F 0 "J15" H 8622 3582 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 8622 3673 50  0000 R CNN
+F 2 "" H 8650 3700 50  0001 C CNN
+F 3 "~" H 8650 3700 50  0001 C CNN
+	1    8650 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 3600 8100 3600
+$Comp
+L Connector:Conn_01x02_Male J16
+U 1 1 60D14159
+P 8650 4050
+F 0 "J16" H 8622 4024 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 8622 3933 50  0000 R CNN
+F 2 "" H 8650 4050 50  0001 C CNN
+F 3 "~" H 8650 4050 50  0001 C CNN
+	1    8650 4050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4050 7800 4050
+Wire Wire Line
+	7800 4050 7800 3700
+Connection ~ 7800 3700
+$EndSCHEMATC
