@@ -951,8 +951,6 @@ Wire Wire Line
 	2800 5600 3000 5600
 Text Label 2900 5600 0    50   ~ 0
 Vbi
-Text GLabel 9050 4400 2    50   Input ~ 0
-Vbi
 Wire Wire Line
 	12900 1850 12400 1850
 Wire Wire Line
