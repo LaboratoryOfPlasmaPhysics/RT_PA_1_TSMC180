@@ -108,7 +108,7 @@ AR Path="/60BB432A" Ref="C?"  Part="1"
 AR Path="/60B597F9/60BB432A" Ref="C51"  Part="1" 
 F 0 "C51" V 3898 2850 50  0000 C CNN
 F 1 "1n" V 3989 2850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4188 2700 50  0001 C CNN
 F 3 "~" H 4150 2850 50  0001 C CNN
 	1    4150 2850
 	0    1    1    0   
@@ -121,7 +121,7 @@ AR Path="/60BB4330" Ref="C?"  Part="1"
 AR Path="/60B597F9/60BB4330" Ref="C57"  Part="1" 
 F 0 "C57" V 3898 3550 50  0000 C CNN
 F 1 "1n" V 3989 3550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4188 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4188 3400 50  0001 C CNN
 F 3 "~" H 4150 3550 50  0001 C CNN
 	1    4150 3550
 	0    1    1    0   
@@ -193,7 +193,7 @@ AR Path="/60BB4368" Ref="C?"  Part="1"
 AR Path="/60B597F9/60BB4368" Ref="C50"  Part="1" 
 F 0 "C50" V 1448 2850 50  0000 C CNN
 F 1 "1n" V 1539 2850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1738 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1738 2700 50  0001 C CNN
 F 3 "~" H 1700 2850 50  0001 C CNN
 	1    1700 2850
 	0    1    1    0   
@@ -603,7 +603,7 @@ AR Path="/60C300D2" Ref="C?"  Part="1"
 AR Path="/60B597F9/60C300D2" Ref="C100"  Part="1" 
 F 0 "C100" V 1400 5300 50  0000 C CNN
 F 1 "1u" V 1500 5300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1738 5150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1738 5150 50  0001 C CNN
 F 3 "~" H 1700 5300 50  0001 C CNN
 	1    1700 5300
 	0    1    -1   0   
@@ -620,7 +620,7 @@ AR Path="/60C300DA" Ref="SW?"  Part="1"
 AR Path="/60B597F9/60C300DA" Ref="SW13"  Part="1" 
 F 0 "SW13" H 2300 5767 50  0000 C CNN
 F 1 "SW_DIP_x04" H 2300 5676 50  0000 C CNN
-F 2 "" H 2300 5300 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile" H 2300 5300 50  0001 C CNN
 F 3 "~" H 2300 5300 50  0001 C CNN
 	1    2300 5300
 	1    0    0    -1  
@@ -681,7 +681,7 @@ AR Path="/60C60A89" Ref="C?"  Part="1"
 AR Path="/60B597F9/60C60A89" Ref="C101"  Part="1" 
 F 0 "C101" V 4450 5250 50  0000 C CNN
 F 1 "1u" V 4550 5250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4788 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4788 5100 50  0001 C CNN
 F 3 "~" H 4750 5250 50  0001 C CNN
 	1    4750 5250
 	0    1    -1   0   
@@ -698,7 +698,7 @@ AR Path="/60C60A91" Ref="SW?"  Part="1"
 AR Path="/60B597F9/60C60A91" Ref="SW14"  Part="1" 
 F 0 "SW14" H 5350 5717 50  0000 C CNN
 F 1 "SW_DIP_x04" H 5350 5626 50  0000 C CNN
-F 2 "" H 5350 5250 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile" H 5350 5250 50  0001 C CNN
 F 3 "~" H 5350 5250 50  0001 C CNN
 	1    5350 5250
 	1    0    0    -1  
@@ -759,7 +759,7 @@ AR Path="/60C676E8" Ref="C?"  Part="1"
 AR Path="/60B597F9/60C676E8" Ref="C102"  Part="1" 
 F 0 "C102" V 7800 5200 50  0000 C CNN
 F 1 "1u" V 7900 5200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8138 5050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8138 5050 50  0001 C CNN
 F 3 "~" H 8100 5200 50  0001 C CNN
 	1    8100 5200
 	0    1    -1   0   
@@ -776,7 +776,7 @@ AR Path="/60C676F0" Ref="SW?"  Part="1"
 AR Path="/60B597F9/60C676F0" Ref="SW15"  Part="1" 
 F 0 "SW15" H 8700 5667 50  0000 C CNN
 F 1 "SW_DIP_x04" H 8700 5576 50  0000 C CNN
-F 2 "" H 8700 5200 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile" H 8700 5200 50  0001 C CNN
 F 3 "~" H 8700 5200 50  0001 C CNN
 	1    8700 5200
 	1    0    0    -1  
