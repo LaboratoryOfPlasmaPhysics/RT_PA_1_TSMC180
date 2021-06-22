@@ -239,12 +239,6 @@ Wire Wire Line
 	3000 7600 3775 7600
 Wire Wire Line
 	3250 9200 3650 9200
-Text HLabel 1200 1750 0    50   BiDi ~ 0
-VDD_diff_1
-Text HLabel 2800 1750 0    50   BiDi ~ 0
-VDD_diff_2
-Text HLabel 4350 1750 0    50   BiDi ~ 0
-VDD_diff_3
 Wire Wire Line
 	1200 1750 1350 1750
 Connection ~ 1350 1750
@@ -284,8 +278,6 @@ Wire Wire Line
 Connection ~ 6450 2450
 Wire Wire Line
 	6450 2450 6700 2450
-Text HLabel 6000 1750 0    50   BiDi ~ 0
-VDD_diff_4
 Wire Wire Line
 	6000 1750 6200 1750
 Connection ~ 6200 1750
@@ -328,8 +320,6 @@ Wire Wire Line
 Connection ~ 8050 2450
 Wire Wire Line
 	8050 2450 8300 2450
-Text HLabel 7600 1750 0    50   BiDi ~ 0
-VDD_diff_5
 Wire Wire Line
 	7600 1750 7800 1750
 Connection ~ 7800 1750
@@ -372,8 +362,6 @@ Wire Wire Line
 Connection ~ 9600 2450
 Wire Wire Line
 	9600 2450 9850 2450
-Text HLabel 9150 1750 0    50   BiDi ~ 0
-VDD_diff_6
 Wire Wire Line
 	9150 1750 9350 1750
 Connection ~ 9350 1750
@@ -416,8 +404,6 @@ Wire Wire Line
 Connection ~ 11200 2450
 Wire Wire Line
 	11200 2450 11450 2450
-Text HLabel 10750 1750 0    50   BiDi ~ 0
-VDD_diff_7
 Wire Wire Line
 	10750 1750 10950 1750
 Connection ~ 10950 1750
@@ -460,8 +446,6 @@ Wire Wire Line
 Connection ~ 12850 2450
 Wire Wire Line
 	12850 2450 13100 2450
-Text HLabel 12400 1750 0    50   BiDi ~ 0
-VDD_diff_8
 Wire Wire Line
 	12400 1750 12600 1750
 Connection ~ 12600 1750
@@ -504,8 +488,6 @@ Wire Wire Line
 Connection ~ 1600 4350
 Wire Wire Line
 	1600 4350 1850 4350
-Text HLabel 1150 3650 0    50   BiDi ~ 0
-VDD_M_1
 Wire Wire Line
 	1150 3650 1350 3650
 Connection ~ 1350 3650
@@ -548,8 +530,6 @@ Wire Wire Line
 Connection ~ 3200 4350
 Wire Wire Line
 	3200 4350 3450 4350
-Text HLabel 2750 3650 0    50   BiDi ~ 0
-VDD_M_2
 Wire Wire Line
 	2750 3650 2950 3650
 Connection ~ 2950 3650
@@ -592,8 +572,6 @@ Wire Wire Line
 Connection ~ 8050 4350
 Wire Wire Line
 	8050 4350 8300 4350
-Text HLabel 7600 3650 0    50   BiDi ~ 0
-VDD_O_1
 Connection ~ 7800 3650
 Wire Wire Line
 	7800 3650 8300 3650
@@ -634,8 +612,6 @@ Wire Wire Line
 Connection ~ 9650 4350
 Wire Wire Line
 	9650 4350 9900 4350
-Text HLabel 9200 3650 0    50   BiDi ~ 0
-VDD_O_2
 Connection ~ 9400 3650
 Wire Wire Line
 	9400 3650 9900 3650
@@ -676,8 +652,6 @@ Wire Wire Line
 Connection ~ 4900 4350
 Wire Wire Line
 	4900 4350 5150 4350
-Text HLabel 4450 3650 0    50   BiDi ~ 0
-VDD_M_3
 Wire Wire Line
 	4450 3650 4650 3650
 Connection ~ 4650 3650
@@ -694,12 +668,6 @@ F 3 "~" H 6700 2100 50  0001 C CNN
 	1    6700 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14850 2250 14450 2250
-Wire Wire Line
-	14850 2550 14450 2550
-Wire Wire Line
-	14850 3200 14450 3200
 $Comp
 L Connector_Generic:Conn_01x01 J25
 U 1 1 60C93866
@@ -736,72 +704,62 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J32
 U 1 1 60C93878
-P 15050 3200
-F 0 "J32" H 15130 3242 50  0000 L CNN
-F 1 "Conn_01x01" H 15130 3151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 3200 50  0001 C CNN
-F 3 "~" H 15050 3200 50  0001 C CNN
-	1    15050 3200
+P 15050 3150
+F 0 "J32" H 15130 3192 50  0000 L CNN
+F 1 "Conn_01x01" H 15130 3101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 3150 50  0001 C CNN
+F 3 "~" H 15050 3150 50  0001 C CNN
+	1    15050 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14450 2850 14850 2850
-Wire Wire Line
-	14850 3550 14450 3550
-Wire Wire Line
-	14850 3850 14450 3850
-Wire Wire Line
-	14850 4500 14450 4500
 $Comp
 L Connector_Generic:Conn_01x01 J34
 U 1 1 60C98251
-P 15050 3550
-F 0 "J34" H 15130 3592 50  0000 L CNN
-F 1 "Conn_01x01" H 15130 3501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 3550 50  0001 C CNN
-F 3 "~" H 15050 3550 50  0001 C CNN
-	1    15050 3550
+P 15050 3450
+F 0 "J34" H 15130 3492 50  0000 L CNN
+F 1 "Conn_01x01" H 15130 3401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 3450 50  0001 C CNN
+F 3 "~" H 15050 3450 50  0001 C CNN
+	1    15050 3450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J36
 U 1 1 60C98257
-P 15050 3850
-F 0 "J36" H 15130 3892 50  0000 L CNN
-F 1 "Conn_01x01" H 15130 3801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 3850 50  0001 C CNN
-F 3 "~" H 15050 3850 50  0001 C CNN
-	1    15050 3850
+P 15050 3750
+F 0 "J36" H 15130 3792 50  0000 L CNN
+F 1 "Conn_01x01" H 15130 3701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 3750 50  0001 C CNN
+F 3 "~" H 15050 3750 50  0001 C CNN
+	1    15050 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J38
 U 1 1 60C9825D
-P 15050 4150
-F 0 "J38" H 15130 4192 50  0000 L CNN
-F 1 "Conn_01x01" H 15130 4101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 4150 50  0001 C CNN
-F 3 "~" H 15050 4150 50  0001 C CNN
-	1    15050 4150
+P 15050 4050
+F 0 "J38" H 15130 4092 50  0000 L CNN
+F 1 "Conn_01x01" H 15130 4001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 4050 50  0001 C CNN
+F 3 "~" H 15050 4050 50  0001 C CNN
+	1    15050 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J40
 U 1 1 60C98263
-P 15050 4500
-F 0 "J40" H 15130 4542 50  0000 L CNN
-F 1 "Conn_01x01" H 15130 4451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 4500 50  0001 C CNN
-F 3 "~" H 15050 4500 50  0001 C CNN
-	1    15050 4500
+P 15050 4350
+F 0 "J40" H 15130 4392 50  0000 L CNN
+F 1 "Conn_01x01" H 15130 4301 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 4350 50  0001 C CNN
+F 3 "~" H 15050 4350 50  0001 C CNN
+	1    15050 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14450 4150 14850 4150
+	13150 3900 12975 3900
 Wire Wire Line
-	13150 3900 12750 3900
-Wire Wire Line
-	13150 4200 12750 4200
+	13150 4200 12975 4200
 $Comp
 L Connector_Generic:Conn_01x01 J22
 U 1 1 60C9D6FD
@@ -836,33 +794,17 @@ F 3 "~" H 13350 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12750 4500 13150 4500
-Text Label 14800 2250 2    50   ~ 0
-VDD_diff_1
-Text Label 14800 2550 2    50   ~ 0
-VDD_diff_2
-Text Label 14800 2850 2    50   ~ 0
-VDD_diff_3
-Text Label 14800 3200 2    50   ~ 0
-VDD_diff_4
-Text Label 14800 3550 2    50   ~ 0
-VDD_diff_5
-Text Label 14800 3850 2    50   ~ 0
-VDD_diff_6
-Text Label 14800 4150 2    50   ~ 0
-VDD_diff_7
-Text Label 14800 4500 2    50   ~ 0
-VDD_diff_8
-Text Label 13050 3900 2    50   ~ 0
-VDD_M_1
-Text Label 13050 4200 2    50   ~ 0
-VDD_M_2
-Text Label 13050 4500 2    50   ~ 0
-VDD_M_3
+	12975 4500 13150 4500
+Text Label 12975 3900 2    50   ~ 0
+VDD_M
+Text Label 12975 4200 2    50   ~ 0
+VDD_M
+Text Label 12975 4500 2    50   ~ 0
+VDD_M
 Wire Wire Line
-	11500 4200 11100 4200
+	11500 4200 11325 4200
 Wire Wire Line
-	11500 4500 11100 4500
+	11500 4500 11325 4500
 $Comp
 L Connector_Generic:Conn_01x01 J20
 U 1 1 60CC6D08
@@ -885,10 +827,10 @@ F 3 "~" H 11700 4500 50  0001 C CNN
 	1    11700 4500
 	1    0    0    -1  
 $EndComp
-Text Label 11400 4200 2    50   ~ 0
-VDD_O_1
-Text Label 11400 4500 2    50   ~ 0
-VDD_O_2
+Text Label 11325 4200 2    50   ~ 0
+VDD_O
+Text Label 11325 4500 2    50   ~ 0
+VDD_O
 Wire Wire Line
 	1350 1750 1900 1750
 Wire Wire Line
@@ -1070,4 +1012,80 @@ Wire Wire Line
 Connection ~ 3775 7600
 Wire Wire Line
 	3775 7600 3950 7600
+Text HLabel 1225 925  0    50   BiDi ~ 0
+VDD_diff
+Wire Wire Line
+	1225 925  1400 925 
+Text Label 1400 925  0    50   ~ 0
+VDD_Diff
+Text Label 1200 1750 2    50   ~ 0
+VDD_Diff
+Text Label 2800 1750 2    50   ~ 0
+VDD_Diff
+Text Label 4350 1750 2    50   ~ 0
+VDD_Diff
+Text Label 6000 1750 2    50   ~ 0
+VDD_Diff
+Text Label 7600 1750 2    50   ~ 0
+VDD_Diff
+Text Label 9150 1750 2    50   ~ 0
+VDD_Diff
+Text Label 10750 1750 2    50   ~ 0
+VDD_Diff
+Text Label 12400 1750 2    50   ~ 0
+VDD_Diff
+Text HLabel 1200 3200 0    50   BiDi ~ 0
+VDD_M
+Wire Wire Line
+	1200 3200 1425 3200
+Text Label 1425 3200 0    50   ~ 0
+VDD_M
+Text Label 1150 3650 2    50   ~ 0
+VDD_M
+Text Label 2750 3650 2    50   ~ 0
+VDD_M
+Text Label 4450 3650 2    50   ~ 0
+VDD_M
+Text HLabel 7700 3300 0    50   BiDi ~ 0
+VDD_O
+Wire Wire Line
+	7700 3300 7900 3300
+Text Label 7900 3300 0    50   ~ 0
+VDD_O
+Text Label 7600 3650 2    50   ~ 0
+VDD_O
+Text Label 9200 3650 2    50   ~ 0
+VDD_O
+Text Label 14725 2250 2    50   ~ 0
+VDD_Diff
+Wire Wire Line
+	14850 2250 14725 2250
+Text Label 14725 2550 2    50   ~ 0
+VDD_Diff
+Wire Wire Line
+	14850 2550 14725 2550
+Text Label 14725 2850 2    50   ~ 0
+VDD_Diff
+Wire Wire Line
+	14850 2850 14725 2850
+Text Label 14725 3150 2    50   ~ 0
+VDD_Diff
+Wire Wire Line
+	14850 3150 14725 3150
+Text Label 14725 3450 2    50   ~ 0
+VDD_Diff
+Wire Wire Line
+	14850 3450 14725 3450
+Text Label 14725 3750 2    50   ~ 0
+VDD_Diff
+Wire Wire Line
+	14850 3750 14725 3750
+Text Label 14725 4050 2    50   ~ 0
+VDD_Diff
+Wire Wire Line
+	14850 4050 14725 4050
+Text Label 14725 4350 2    50   ~ 0
+VDD_Diff
+Wire Wire Line
+	14850 4350 14725 4350
 $EndSCHEMATC

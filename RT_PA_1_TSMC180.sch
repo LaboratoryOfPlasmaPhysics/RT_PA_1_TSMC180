@@ -21,19 +21,9 @@ F1 "Ref.sch" 50
 F2 "1V8_g" B L 12900 6350 50 
 F3 "0V9_g" B L 12900 6500 50 
 F4 "1V14_g" B L 12900 6650 50 
-F5 "VDD_diff_1" B R 13900 6350 50 
-F6 "VDD_diff_2" B R 13900 6450 50 
-F7 "VDD_diff_3" B R 13900 6550 50 
-F8 "VDD_diff_4" B R 13900 6650 50 
-F9 "VDD_diff_5" B R 13900 6750 50 
-F10 "VDD_diff_6" B R 13900 6850 50 
-F11 "VDD_diff_7" B R 13900 6950 50 
-F12 "VDD_diff_8" B R 13900 7050 50 
-F13 "VDD_M_1" B R 13900 7250 50 
-F14 "VDD_M_2" B R 13900 7350 50 
-F15 "VDD_O_1" B R 13900 7650 50 
-F16 "VDD_O_2" B R 13900 7750 50 
-F17 "VDD_M_3" B R 13900 7450 50 
+F5 "VDD_diff" B R 13900 6700 50 
+F6 "VDD_M" B R 13900 7100 50 
+F7 "VDD_O" B R 13900 7450 50 
 $EndSheet
 $Comp
 L Connector:Conn_Coaxial J1
@@ -203,7 +193,7 @@ $EndComp
 Text Label 4050 3200 2    50   ~ 0
 gnd
 Text Label 4050 3400 2    50   ~ 0
-VDD_M_2
+VDD_M
 Text Label 4050 3600 2    50   ~ 0
 pD
 Text Label 4050 3800 2    50   ~ 0
@@ -225,7 +215,7 @@ VIbias
 Text Label 4100 5400 2    50   ~ 0
 VbiasM
 Text Label 4100 5800 2    50   ~ 0
-VDD_M_1
+VDD_M
 Wire Wire Line
 	8600 2800 9050 2800
 Wire Wire Line
@@ -245,11 +235,11 @@ Wire Wire Line
 Wire Wire Line
 	8600 4800 9050 4800
 Text Label 9000 2800 2    50   ~ 0
-VDD_diff_5
+VDD_diff
 Text Label 8950 3000 2    50   ~ 0
 gnd
 Text Label 8950 3200 2    50   ~ 0
-VDD_O_2
+VDD_O
 Text Label 8850 3400 2    50   ~ 0
 nD
 Text Label 8850 3600 2    50   ~ 0
@@ -279,7 +269,7 @@ TCc2
 Text Label 8950 5400 2    50   ~ 0
 Vo2O
 Text Label 8950 5800 2    50   ~ 0
-VDD_O_1
+VDD_O
 Wire Wire Line
 	5200 2200 5200 1900
 Wire Wire Line
@@ -309,7 +299,7 @@ GND_io
 Text Label 7200 1900 3    50   ~ 0
 VM_diff
 Text Label 7000 1750 3    50   ~ 0
-VDD_diff_6
+VDD_diff
 Wire Wire Line
 	5800 1800 5800 2200
 Wire Wire Line
@@ -355,7 +345,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 6600 5000 7000
 Text Label 5200 6700 3    50   ~ 0
-VDD_M_3
+VDD_M
 Text Label 7600 6700 3    50   ~ 0
 VM_O
 Text Label 5400 6700 3    50   ~ 0
@@ -365,11 +355,11 @@ T_Cc
 Text Label 5800 6700 3    50   ~ 0
 Vo2m
 Text Label 6200 6700 3    50   ~ 0
-VDD_diff_1
+VDD_diff
 Text Label 6400 6700 3    50   ~ 0
 Vi2d
 Text Label 6800 6700 3    50   ~ 0
-VDD_diff_2
+VDD_diff
 Text Label 7000 6700 3    50   ~ 0
 Vi1d
 Wire Wire Line
@@ -620,68 +610,15 @@ Wire Wire Line
 Wire Wire Line
 	2800 5400 4200 5400
 Text Label 7400 7100 1    50   ~ 0
-VDD_diff_3
+VDD_diff
 Text Label 8000 7100 1    50   ~ 0
-VDD_diff_4
+VDD_diff
 Text Label 6000 2150 1    50   ~ 0
-VDD_diff_7
+VDD_diff
 Text Label 5000 2100 1    50   ~ 0
-VDD_diff_8
+VDD_diff
 Wire Wire Line
 	7400 1800 7400 2200
-Wire Wire Line
-	14100 6350 14100 6450
-Wire Wire Line
-	14100 7050 13900 7050
-Wire Wire Line
-	13900 6350 14100 6350
-Wire Wire Line
-	13900 6450 14100 6450
-Connection ~ 14100 6450
-Wire Wire Line
-	14100 6450 14100 6550
-Wire Wire Line
-	13900 6550 14100 6550
-Connection ~ 14100 6550
-Wire Wire Line
-	14100 6550 14100 6650
-Wire Wire Line
-	13900 6650 14100 6650
-Connection ~ 14100 6650
-Wire Wire Line
-	14100 6650 14100 6700
-Wire Wire Line
-	13900 6750 14100 6750
-Connection ~ 14100 6750
-Wire Wire Line
-	13900 6850 14100 6850
-Wire Wire Line
-	14100 6750 14100 6850
-Connection ~ 14100 6850
-Wire Wire Line
-	14100 6850 14100 6950
-Wire Wire Line
-	13900 6950 14100 6950
-Connection ~ 14100 6950
-Wire Wire Line
-	14100 6950 14100 7050
-Wire Wire Line
-	13900 7250 14100 7250
-Wire Wire Line
-	14100 7250 14100 7350
-Wire Wire Line
-	14100 7450 13900 7450
-Wire Wire Line
-	13900 7350 14100 7350
-Connection ~ 14100 7350
-Wire Wire Line
-	14100 7350 14100 7450
-Wire Wire Line
-	13900 7650 14100 7650
-Wire Wire Line
-	14100 7650 14100 7700
-Wire Wire Line
-	14100 7750 13900 7750
 $Comp
 L Switch:SW_DIP_x03 SW1
 U 1 1 60D08B31
@@ -718,24 +655,7 @@ VDD_O
 Wire Wire Line
 	14500 7000 14500 6700
 Wire Wire Line
-	14500 6700 14100 6700
-Connection ~ 14100 6700
-Wire Wire Line
-	14100 6700 14100 6750
-Wire Wire Line
-	14500 7200 14500 7700
-Wire Wire Line
-	14500 7700 14100 7700
-Connection ~ 14100 7700
-Wire Wire Line
-	14100 7700 14100 7750
-Wire Wire Line
-	14300 7100 14300 7250
-Wire Wire Line
-	14300 7250 14100 7250
-Wire Wire Line
-	14300 7100 15000 7100
-Connection ~ 14100 7250
+	14500 7200 14500 7450
 Wire Wire Line
 	12000 1750 12000 6650
 Wire Wire Line
@@ -1087,4 +1007,10 @@ Wire Wire Line
 	12400 3950 12900 3950
 Text Label 12550 3950 0    50   ~ 0
 Vin
+Wire Wire Line
+	13900 6700 14500 6700
+Wire Wire Line
+	13900 7100 15000 7100
+Wire Wire Line
+	13900 7450 14500 7450
 $EndSCHEMATC
