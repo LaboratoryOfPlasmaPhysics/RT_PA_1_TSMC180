@@ -803,4 +803,23 @@ Text Label 4100 5100 0    50   ~ 0
 Vref
 Text Label 7450 5050 0    50   ~ 0
 Vref
+Text HLabel 6750 2750 2    50   Input ~ 0
+Vi1d
+Text HLabel 6750 2850 2    50   Input ~ 0
+Vi2d
+$Comp
+L Connector_Generic:Conn_01x02 J401
+U 1 1 610C3539
+P 6250 2750
+F 0 "J401" H 6168 2967 50  0000 C CNN
+F 1 "Conn_01x02" H 6168 2876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6250 2750 50  0001 C CNN
+F 3 "~" H 6250 2750 50  0001 C CNN
+	1    6250 2750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2750 6750 2750
+Wire Wire Line
+	6450 2850 6750 2850
 $EndSCHEMATC
