@@ -335,17 +335,6 @@ Wire Wire Line
 	8350 1200 8750 1200
 Wire Wire Line
 	8350 1300 8750 1300
-$Comp
-L Connector_Generic:Conn_01x01 J59
-U 1 1 60DF5FC5
-P 9850 1100
-F 0 "J59" H 9768 1317 50  0000 C CNN
-F 1 "Conn_01x01" H 9768 1226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9850 1100 50  0001 C CNN
-F 3 "~" H 9850 1100 50  0001 C CNN
-	1    9850 1100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	10050 1100 10450 1100
 $Comp
@@ -876,4 +865,6 @@ Wire Wire Line
 Connection ~ 1650 6500
 Wire Wire Line
 	1650 6500 1800 6500
+Text Label 10050 1100 2    50   ~ 0
+Vbi
 $EndSCHEMATC

@@ -93,22 +93,22 @@ Wire Wire Line
 Wire Wire Line
 	3250 9550 3250 9750
 $Comp
-L Connector:Conn_01x02_Female J14
+L Connector:Conn_01x01_Female J14
 U 1 1 60BCCE32
 P 4150 7300
 F 0 "J14" H 4178 7326 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4178 7235 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4178 7235 50  0000 L CNN
 F 2 "banana:Banana_test_point_4mm" H 4150 7300 50  0001 C CNN
 F 3 "~" H 4150 7300 50  0001 C CNN
 	1    4150 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J15
+L Connector:Conn_01x01_Female J15
 U 1 1 60BD119C
 P 4150 7600
 F 0 "J15" H 4178 7626 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4178 7535 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4178 7535 50  0000 L CNN
 F 2 "banana:Banana_test_point_4mm" H 4150 7600 50  0001 C CNN
 F 3 "~" H 4150 7600 50  0001 C CNN
 	1    4150 7600
@@ -166,12 +166,6 @@ F 3 "~" H 3850 9550 50  0001 C CNN
 	1    3850 9550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 7000 3775 7000
-Wire Wire Line
-	3000 7300 3775 7300
-Wire Wire Line
-	3000 7600 3775 7600
 Wire Wire Line
 	3250 9200 3650 9200
 $Comp
@@ -446,102 +440,35 @@ F 3 "~" H 15050 2250 50  0001 C CNN
 	1    15050 2250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J26
-U 1 1 60C9386C
-P 15050 2550
-F 0 "J26" H 15130 2592 50  0000 L CNN
-F 1 "Conn_01x01" H 15130 2501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 2550 50  0001 C CNN
-F 3 "~" H 15050 2550 50  0001 C CNN
-	1    15050 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J30
-U 1 1 60C93872
-P 15050 2850
-F 0 "J30" H 15130 2892 50  0000 L CNN
-F 1 "Conn_01x01" H 15130 2801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 2850 50  0001 C CNN
-F 3 "~" H 15050 2850 50  0001 C CNN
-	1    15050 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	13150 3900 12975 3900
-Wire Wire Line
-	13150 4200 12975 4200
+	14850 2500 14675 2500
 $Comp
 L Connector_Generic:Conn_01x01 J22
 U 1 1 60C9D6FD
-P 13350 3900
-F 0 "J22" H 13430 3942 50  0000 L CNN
-F 1 "Conn_01x01" H 13430 3851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13350 3900 50  0001 C CNN
-F 3 "~" H 13350 3900 50  0001 C CNN
-	1    13350 3900
+P 15050 2500
+F 0 "J22" H 15130 2542 50  0000 L CNN
+F 1 "Conn_01x01" H 15130 2451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 2500 50  0001 C CNN
+F 3 "~" H 15050 2500 50  0001 C CNN
+	1    15050 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J23
-U 1 1 60C9D703
-P 13350 4200
-F 0 "J23" H 13430 4242 50  0000 L CNN
-F 1 "Conn_01x01" H 13430 4151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13350 4200 50  0001 C CNN
-F 3 "~" H 13350 4200 50  0001 C CNN
-	1    13350 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J24
-U 1 1 60C9D709
-P 13350 4500
-F 0 "J24" H 13430 4542 50  0000 L CNN
-F 1 "Conn_01x01" H 13430 4451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 13350 4500 50  0001 C CNN
-F 3 "~" H 13350 4500 50  0001 C CNN
-	1    13350 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12975 4500 13150 4500
-Text Label 12975 3900 2    50   ~ 0
-VDD_M
-Text Label 12975 4200 2    50   ~ 0
-VDD_M
-Text Label 12975 4500 2    50   ~ 0
+Text Label 14675 2500 2    50   ~ 0
 VDD_M
 Wire Wire Line
-	11500 4200 11325 4200
-Wire Wire Line
-	11500 4500 11325 4500
+	14850 2750 14675 2750
 $Comp
 L Connector_Generic:Conn_01x01 J20
 U 1 1 60CC6D08
-P 11700 4200
-F 0 "J20" H 11780 4242 50  0000 L CNN
-F 1 "Conn_01x01" H 11780 4151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 11700 4200 50  0001 C CNN
-F 3 "~" H 11700 4200 50  0001 C CNN
-	1    11700 4200
+P 15050 2750
+F 0 "J20" H 15130 2792 50  0000 L CNN
+F 1 "Conn_01x01" H 15130 2701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15050 2750 50  0001 C CNN
+F 3 "~" H 15050 2750 50  0001 C CNN
+	1    15050 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J21
-U 1 1 60CC6D0E
-P 11700 4500
-F 0 "J21" H 11780 4542 50  0000 L CNN
-F 1 "Conn_01x01" H 11780 4451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 11700 4500 50  0001 C CNN
-F 3 "~" H 11700 4500 50  0001 C CNN
-	1    11700 4500
-	1    0    0    -1  
-$EndComp
-Text Label 11325 4200 2    50   ~ 0
-VDD_O
-Text Label 11325 4500 2    50   ~ 0
+Text Label 14675 2750 2    50   ~ 0
 VDD_O
 Wire Wire Line
 	9200 3650 9400 3650
@@ -603,37 +530,16 @@ F 3 "~" H 9400 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J9
+L Connector:Conn_01x01_Female J9
 U 1 1 60BC26AB
 P 4150 7000
 F 0 "J9" H 4178 7026 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 4178 6935 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4178 6935 50  0000 L CNN
 F 2 "banana:Banana_test_point_4mm" H 4150 7000 50  0001 C CNN
 F 3 "~" H 4150 7000 50  0001 C CNN
 	1    4150 7000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 7100 3775 7100
-Wire Wire Line
-	3775 7100 3775 7000
-Connection ~ 3775 7000
-Wire Wire Line
-	3775 7000 3950 7000
-Wire Wire Line
-	3950 7400 3775 7400
-Wire Wire Line
-	3775 7400 3775 7300
-Connection ~ 3775 7300
-Wire Wire Line
-	3775 7300 3950 7300
-Wire Wire Line
-	3950 7700 3775 7700
-Wire Wire Line
-	3775 7700 3775 7600
-Connection ~ 3775 7600
-Wire Wire Line
-	3775 7600 3950 7600
 Text HLabel 1225 925  0    50   BiDi ~ 0
 VDD_diff
 Wire Wire Line
@@ -664,10 +570,6 @@ Text Label 9200 3650 2    50   ~ 0
 VDD_O
 Wire Wire Line
 	14850 2250 14725 2250
-Wire Wire Line
-	14850 2550 14725 2550
-Wire Wire Line
-	14850 2850 14725 2850
 Wire Wire Line
 	2075 1900 2075 1750
 Wire Wire Line
@@ -796,8 +698,10 @@ Text Label 3075 1425 2    50   ~ 0
 VDD_diff
 Text Label 14725 2250 2    50   ~ 0
 VDD_diff
-Text Label 14725 2550 2    50   ~ 0
-VDD_diff
-Text Label 14725 2850 2    50   ~ 0
-VDD_diff
+Wire Wire Line
+	3000 7000 3950 7000
+Wire Wire Line
+	3000 7300 3950 7300
+Wire Wire Line
+	3000 7600 3950 7600
 $EndSCHEMATC
