@@ -97,8 +97,8 @@ L Connector:Conn_01x02_Female J14
 U 1 1 60BCCE32
 P 4150 7300
 F 0 "J14" H 4178 7326 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4178 7235 50  0000 L CNN
-F 2 "Connector:Banana_Jack_2Pin" H 4150 7300 50  0001 C CNN
+F 1 "Conn_01x02_Female" H 4178 7235 50  0000 L CNN
+F 2 "banana:Banana_test_point_4mm" H 4150 7300 50  0001 C CNN
 F 3 "~" H 4150 7300 50  0001 C CNN
 	1    4150 7300
 	1    0    0    -1  
@@ -108,8 +108,8 @@ L Connector:Conn_01x02_Female J15
 U 1 1 60BD119C
 P 4150 7600
 F 0 "J15" H 4178 7626 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4178 7535 50  0000 L CNN
-F 2 "Connector:Banana_Jack_2Pin" H 4150 7600 50  0001 C CNN
+F 1 "Conn_01x02_Female" H 4178 7535 50  0000 L CNN
+F 2 "banana:Banana_test_point_4mm" H 4150 7600 50  0001 C CNN
 F 3 "~" H 4150 7600 50  0001 C CNN
 	1    4150 7600
 	1    0    0    -1  
@@ -607,8 +607,8 @@ L Connector:Conn_01x02_Female J9
 U 1 1 60BC26AB
 P 4150 7000
 F 0 "J9" H 4178 7026 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 4178 6935 50  0000 L CNN
-F 2 "Connector:Banana_Jack_2Pin" H 4150 7000 50  0001 C CNN
+F 1 "Conn_01x02_Female" H 4178 6935 50  0000 L CNN
+F 2 "banana:Banana_test_point_4mm" H 4150 7000 50  0001 C CNN
 F 3 "~" H 4150 7000 50  0001 C CNN
 	1    4150 7000
 	1    0    0    -1  
@@ -639,9 +639,7 @@ VDD_diff
 Wire Wire Line
 	1225 925  1400 925 
 Text Label 1400 925  0    50   ~ 0
-VDD_Diff
-Text Label 3075 1425 2    50   ~ 0
-VDD_Diff
+VDD_diff
 Text HLabel 1200 3200 0    50   BiDi ~ 0
 VDD_M
 Wire Wire Line
@@ -664,16 +662,10 @@ Text Label 7600 3650 2    50   ~ 0
 VDD_O
 Text Label 9200 3650 2    50   ~ 0
 VDD_O
-Text Label 14725 2250 2    50   ~ 0
-VDD_Diff
 Wire Wire Line
 	14850 2250 14725 2250
-Text Label 14725 2550 2    50   ~ 0
-VDD_Diff
 Wire Wire Line
 	14850 2550 14725 2550
-Text Label 14725 2850 2    50   ~ 0
-VDD_Diff
 Wire Wire Line
 	14850 2850 14725 2850
 Wire Wire Line
@@ -800,4 +792,12 @@ Wire Wire Line
 Connection ~ 1175 2450
 Wire Wire Line
 	1175 2450 1650 2450
+Text Label 3075 1425 2    50   ~ 0
+VDD_diff
+Text Label 14725 2250 2    50   ~ 0
+VDD_diff
+Text Label 14725 2550 2    50   ~ 0
+VDD_diff
+Text Label 14725 2850 2    50   ~ 0
+VDD_diff
 $EndSCHEMATC
