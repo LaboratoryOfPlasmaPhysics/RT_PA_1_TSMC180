@@ -89,42 +89,29 @@ Wire Wire Line
 	10350 3400 9800 3400
 Wire Wire Line
 	10350 3900 9800 3900
-Text Label 5000 4200 2    50   ~ 0
+Text Label 4950 3850 2    50   ~ 0
 VM_diff
-Text Label 4950 4300 2    50   ~ 0
+Text Label 4900 4300 2    50   ~ 0
 VM_M
-Text Label 4950 4400 2    50   ~ 0
+Text Label 4900 4700 2    50   ~ 0
 VM_O
-$Comp
-L Connector_Generic:Conn_01x03 J?
-U 1 1 60CECED0
-P 5350 4300
-AR Path="/60B90C78/60CECED0" Ref="J?"  Part="1" 
-AR Path="/60C959DA/60CECED0" Ref="J17"  Part="1" 
-F 0 "J17" H 5430 4342 50  0000 L CNN
-F 1 "Conn_01x03" H 5430 4251 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5350 4300 50  0001 C CNN
-F 3 "~" H 5350 4300 50  0001 C CNN
-	1    5350 4300
-	1    0    0    -1  
-$EndComp
-Text HLabel 4650 4200 0    50   BiDi ~ 0
+Text HLabel 4600 3850 0    50   BiDi ~ 0
 VM_diff
-Text HLabel 4650 4300 0    50   BiDi ~ 0
+Text HLabel 4600 4300 0    50   BiDi ~ 0
 VM_M
-Text HLabel 4650 4400 0    50   BiDi ~ 0
+Text HLabel 4600 4700 0    50   BiDi ~ 0
 VM_O
 Wire Wire Line
-	4650 4200 5150 4200
+	4600 3850 5100 3850
 Wire Wire Line
-	4650 4300 5150 4300
+	4600 4300 5100 4300
 Wire Wire Line
-	4650 4400 5150 4400
+	4600 4700 5100 4700
 $Comp
-L Switch:SW_DIP_x04 SW12
+L Switch:SW_DIP_x04 S_Bias1
 U 1 1 60D4E0D2
 P 5050 2450
-F 0 "SW12" H 5050 2917 50  0000 C CNN
+F 0 "S_Bias1" H 5050 2917 50  0000 C CNN
 F 1 "SW_DIP_x04" H 5050 2826 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile" H 5050 2450 50  0001 C CNN
 F 3 "~" H 5050 2450 50  0001 C CNN
@@ -159,4 +146,67 @@ Text HLabel 9800 4450 0    50   Input ~ 0
 Vbi
 Wire Wire Line
 	9800 4450 10350 4450
+$Comp
+L Connector_Generic:Conn_01x01 J171
+U 1 1 60DDF5FB
+P 5300 3850
+F 0 "J171" H 5380 3892 50  0000 L CNN
+F 1 "Conn_01x01" H 5380 3801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5300 3850 50  0001 C CNN
+F 3 "~" H 5300 3850 50  0001 C CNN
+	1    5300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J172
+U 1 1 60DDFA0E
+P 5300 4300
+F 0 "J172" H 5380 4342 50  0000 L CNN
+F 1 "Conn_01x01" H 5380 4251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5300 4300 50  0001 C CNN
+F 3 "~" H 5300 4300 50  0001 C CNN
+	1    5300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J173
+U 1 1 60DDFEBB
+P 5300 4700
+F 0 "J173" H 5380 4742 50  0000 L CNN
+F 1 "Conn_01x01" H 5380 4651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5300 4700 50  0001 C CNN
+F 3 "~" H 5300 4700 50  0001 C CNN
+	1    5300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J_VDD_io
+U 1 1 60E1B2FF
+P 3600 5600
+F 0 "J_VDD_io" H 3700 5575 50  0000 L CNN
+F 1 "Conn_Coaxial" H 3700 5484 50  0000 L CNN
+F 2 "banana:Banana_test_point_4mm" H 3600 5600 50  0001 C CNN
+F 3 " ~" H 3600 5600 50  0001 C CNN
+	1    3600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 60E1B9E3
+P 3600 6100
+F 0 "#PWR0134" H 3600 5850 50  0001 C CNN
+F 1 "GND" H 3605 5927 50  0000 C CNN
+F 2 "" H 3600 6100 50  0001 C CNN
+F 3 "" H 3600 6100 50  0001 C CNN
+	1    3600 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 6100 3600 5800
+Text Label 3100 5600 0    50   ~ 0
+VDD_io
+Text HLabel 2700 5600 0    50   BiDi ~ 0
+VDD_io
+Wire Wire Line
+	2700 5600 3400 5600
 $EndSCHEMATC
