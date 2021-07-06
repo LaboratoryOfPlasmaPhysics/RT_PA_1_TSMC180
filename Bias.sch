@@ -196,4 +196,19 @@ Text HLabel 2700 5600 0    50   BiDi ~ 0
 VDD_io
 Wire Wire Line
 	2700 5600 3400 5600
+$Comp
+L Connector_Generic:Conn_01x01 J501
+U 1 1 60E58581
+P 3450 6000
+F 0 "J501" H 3530 6042 50  0000 L CNN
+F 1 "Conn_01x01" H 3530 5951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3450 6000 50  0001 C CNN
+F 3 "~" H 3450 6000 50  0001 C CNN
+	1    3450 6000
+	1    0    0    -1  
+$EndComp
+Text Label 2850 6000 0    50   ~ 0
+VDD_io
+Wire Wire Line
+	2850 6000 3250 6000
 $EndSCHEMATC
