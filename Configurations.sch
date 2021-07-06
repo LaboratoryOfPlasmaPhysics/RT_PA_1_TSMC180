@@ -211,13 +211,13 @@ Text HLabel 10450 3000 2    50   BiDi ~ 0
 VoOii
 Text HLabel 10450 1100 2    50   BiDi ~ 0
 Vbi
-Text HLabel 10450 1700 2    50   BiDi ~ 0
+Text HLabel 10450 1750 2    50   BiDi ~ 0
 Vo2O
 Text Label 3800 1150 2    50   ~ 0
 VoOi
 Text HLabel 10450 2900 2    50   BiDi ~ 0
 VoOi
-Text HLabel 10450 1600 2    50   BiDi ~ 0
+Text HLabel 10450 1400 2    50   BiDi ~ 0
 Vo1O
 Text HLabel 10450 2150 2    50   BiDi ~ 0
 TCc2
@@ -300,20 +300,20 @@ Wire Wire Line
 Wire Wire Line
 	10050 1100 10450 1100
 $Comp
-L Connector_Generic:Conn_01x02 J60
+L Connector_Generic:Conn_01x01 J60
 U 1 1 60DF8CA9
-P 9850 1600
-F 0 "J60" H 9768 1817 50  0000 C CNN
-F 1 "Conn_01x02" H 9768 1726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9850 1600 50  0001 C CNN
-F 3 "~" H 9850 1600 50  0001 C CNN
-	1    9850 1600
+P 9850 1400
+F 0 "J60" H 9768 1617 50  0000 C CNN
+F 1 "Conn_01x01" H 9768 1526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9850 1400 50  0001 C CNN
+F 3 "~" H 9850 1400 50  0001 C CNN
+	1    9850 1400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	10050 1600 10450 1600
+	10050 1400 10450 1400
 Wire Wire Line
-	10050 1700 10450 1700
+	10050 1750 10450 1750
 $Comp
 L Connector_Generic:Conn_01x02 J61
 U 1 1 60DFF33C
@@ -873,4 +873,15 @@ Wire Wire Line
 Connection ~ 1350 1850
 Wire Wire Line
 	1350 1850 950  1850
+$Comp
+L Connector_Generic:Conn_01x01 J402
+U 1 1 60E51431
+P 9850 1750
+F 0 "J402" H 9768 1967 50  0000 C CNN
+F 1 "Conn_01x01" H 9768 1876 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9850 1750 50  0001 C CNN
+F 3 "~" H 9850 1750 50  0001 C CNN
+	1    9850 1750
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

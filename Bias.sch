@@ -180,29 +180,16 @@ F 3 "~" H 5300 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J_VDD_io
+L Connector:Conn_01x01_Female J_VDD_io501
 U 1 1 60E1B2FF
 P 3600 5600
-F 0 "J_VDD_io" H 3700 5575 50  0000 L CNN
-F 1 "Conn_Coaxial" H 3700 5484 50  0000 L CNN
+F 0 "J_VDD_io501" H 3700 5575 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3700 5484 50  0000 L CNN
 F 2 "banana:Banana_test_point_4mm" H 3600 5600 50  0001 C CNN
 F 3 " ~" H 3600 5600 50  0001 C CNN
 	1    3600 5600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0134
-U 1 1 60E1B9E3
-P 3600 6100
-F 0 "#PWR0134" H 3600 5850 50  0001 C CNN
-F 1 "GND" H 3605 5927 50  0000 C CNN
-F 2 "" H 3600 6100 50  0001 C CNN
-F 3 "" H 3600 6100 50  0001 C CNN
-	1    3600 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 6100 3600 5800
 Text Label 3100 5600 0    50   ~ 0
 VDD_io
 Text HLabel 2700 5600 0    50   BiDi ~ 0

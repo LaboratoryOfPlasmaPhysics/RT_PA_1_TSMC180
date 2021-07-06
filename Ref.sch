@@ -704,4 +704,94 @@ Wire Wire Line
 	3000 7300 3950 7300
 Wire Wire Line
 	3000 7600 3950 7600
+Text Label 3225 10100 0    50   ~ 0
+gnd
+$Comp
+L power:GND #PWR?
+U 1 1 60E7A211
+P 3225 10300
+AR Path="/60E7A211" Ref="#PWR?"  Part="1" 
+AR Path="/60B90C78/60E7A211" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 3225 10050 50  0001 C CNN
+F 1 "GND" H 3230 10127 50  0000 C CNN
+F 2 "" H 3225 10300 50  0001 C CNN
+F 3 "" H 3225 10300 50  0001 C CNN
+	1    3225 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 10100 3225 10100
+Wire Wire Line
+	3225 10100 3225 10300
+$Comp
+L Connector_Generic:Conn_01x01 J202
+U 1 1 60E7A21D
+P 3825 10100
+F 0 "J202" H 3905 10142 50  0000 L CNN
+F 1 "Conn_01x01" H 3905 10051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3825 10100 50  0001 C CNN
+F 3 "~" H 3825 10100 50  0001 C CNN
+	1    3825 10100
+	1    0    0    -1  
+$EndComp
+Text Label 3200 10650 0    50   ~ 0
+gnd
+$Comp
+L power:GND #PWR?
+U 1 1 60E7E779
+P 3200 10850
+AR Path="/60E7E779" Ref="#PWR?"  Part="1" 
+AR Path="/60B90C78/60E7E779" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 3200 10600 50  0001 C CNN
+F 1 "GND" H 3205 10677 50  0000 C CNN
+F 2 "" H 3200 10850 50  0001 C CNN
+F 3 "" H 3200 10850 50  0001 C CNN
+	1    3200 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 10650 3200 10650
+Wire Wire Line
+	3200 10650 3200 10850
+$Comp
+L Connector_Generic:Conn_01x01 J201
+U 1 1 60E7E785
+P 3800 10650
+F 0 "J201" H 3880 10692 50  0000 L CNN
+F 1 "Conn_01x01" H 3880 10601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3800 10650 50  0001 C CNN
+F 3 "~" H 3800 10650 50  0001 C CNN
+	1    3800 10650
+	1    0    0    -1  
+$EndComp
+Text Label 4675 10650 0    50   ~ 0
+gnd
+$Comp
+L power:GND #PWR?
+U 1 1 60E84AEB
+P 4675 10850
+AR Path="/60E84AEB" Ref="#PWR?"  Part="1" 
+AR Path="/60B90C78/60E84AEB" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 4675 10600 50  0001 C CNN
+F 1 "GND" H 4680 10677 50  0000 C CNN
+F 2 "" H 4675 10850 50  0001 C CNN
+F 3 "" H 4675 10850 50  0001 C CNN
+	1    4675 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 10650 4675 10650
+Wire Wire Line
+	4675 10650 4675 10850
+$Comp
+L Connector_Generic:Conn_01x01 J203
+U 1 1 60E84AF7
+P 5275 10650
+F 0 "J203" H 5355 10692 50  0000 L CNN
+F 1 "Conn_01x01" H 5355 10601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5275 10650 50  0001 C CNN
+F 3 "~" H 5275 10650 50  0001 C CNN
+	1    5275 10650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
