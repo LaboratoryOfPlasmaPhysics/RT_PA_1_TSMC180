@@ -190,31 +190,31 @@ F 3 "" H 5800 6500 50  0001 C CNN
 	1    6400 4400
 	1    0    0    -1  
 $EndComp
-Text Label 4050 3200 2    50   ~ 0
-gnd
 Text Label 4050 3400 2    50   ~ 0
+gnd
+Text Label 4050 3200 2    50   ~ 0
 VDD_M
-Text Label 4050 3600 2    50   ~ 0
+Text Label 4050 5400 2    50   ~ 0
 pD
-Text Label 4050 3800 2    50   ~ 0
-pG
-Text Label 4050 4000 2    50   ~ 0
-pB
-Text Label 4050 4200 2    50   ~ 0
-pS
-Text Label 4050 4400 2    50   ~ 0
-VM_M
-Text Label 4050 4600 2    50   ~ 0
-Vo1m
-Text Label 4100 4800 2    50   ~ 0
-VbiasO
-Text Label 4150 5000 2    50   ~ 0
-VbiasDiff
 Text Label 4050 5200 2    50   ~ 0
+pG
+Text Label 4050 5000 2    50   ~ 0
+pB
+Text Label 4050 4800 2    50   ~ 0
+pS
+Text Label 4050 4600 2    50   ~ 0
+VM_M
+Text Label 4050 4400 2    50   ~ 0
+Vo1m
+Text Label 3700 4200 2    50   ~ 0
+VbiasO
+Text Label 3750 4000 2    50   ~ 0
+VbiasDiff
+Text Label 3650 3800 2    50   ~ 0
 VIbias
-Text Label 4100 5400 2    50   ~ 0
+Text Label 3700 3600 2    50   ~ 0
 VbiasM
-Text Label 4100 5800 2    50   ~ 0
+Text Label 4100 5600 2    50   ~ 0
 VDD_M
 Wire Wire Line
 	8600 2800 9050 2800
@@ -361,25 +361,25 @@ VDD_diff
 Text Label 7000 6700 3    50   ~ 0
 Vi1d
 Wire Wire Line
-	3550 3200 4200 3200
+	3550 3400 4200 3400
 Wire Wire Line
-	3550 5600 4200 5600
+	3550 5800 4200 5800
 Wire Wire Line
-	3700 3400 4200 3400
+	3700 3200 4200 3200
 Wire Wire Line
-	3700 5800 4200 5800
-Wire Wire Line
-	3850 4600 4200 4600
+	3700 5600 4200 5600
 Wire Wire Line
 	3850 4400 4200 4400
 Wire Wire Line
-	3850 4200 4200 4200
+	3850 4600 4200 4600
 Wire Wire Line
-	3850 4000 4200 4000
+	3850 4800 4200 4800
 Wire Wire Line
-	3850 3800 4200 3800
+	3850 5000 4200 5000
 Wire Wire Line
-	3850 3600 4200 3600
+	3850 5200 4200 5200
+Wire Wire Line
+	3850 5400 4200 5400
 Text Label 6600 1950 3    50   ~ 0
 Vi1O
 Text Label 6400 1950 3    50   ~ 0
@@ -423,40 +423,40 @@ F24 "Vi1d" I L 12650 2650 50
 F25 "Vi2d" I L 12650 2750 50 
 $EndSheet
 $Sheet
-S 1850 4600 950  1200
+S 1850 3400 950  1200
 U 60C959DA
 F0 "Bias" 50
 F1 "Bias.sch" 50
-F2 "VIbias" B R 2800 5200 50 
-F3 "VbiasDiff" I R 2800 5000 50 
-F4 "VbiasM" I R 2800 5400 50 
-F5 "VbiasO" I R 2800 4800 50 
-F6 "VM_diff" B L 1850 5150 50 
-F7 "VM_M" B L 1850 5250 50 
-F8 "VM_O" B L 1850 5350 50 
-F9 "Vbi" I R 2800 5600 50 
-F10 "VDD_io" B L 1850 4800 50 
+F2 "VIbias" B R 2800 3800 50 
+F3 "VbiasDiff" I R 2800 4000 50 
+F4 "VbiasM" I R 2800 3600 50 
+F5 "VbiasO" I R 2800 4200 50 
+F6 "VM_diff" B L 1850 3950 50 
+F7 "VM_M" B L 1850 4050 50 
+F8 "VM_O" B L 1850 4150 50 
+F9 "Vbi" I R 2800 4400 50 
+F10 "VDD_io" B L 1850 3600 50 
 $EndSheet
 $Comp
 L power:GND #PWR0117
 U 1 1 60CB4D1E
-P 3550 3200
-F 0 "#PWR0117" H 3550 2950 50  0001 C CNN
-F 1 "GND" V 3555 3072 50  0000 R CNN
-F 2 "" H 3550 3200 50  0001 C CNN
-F 3 "" H 3550 3200 50  0001 C CNN
-	1    3550 3200
+P 3550 3400
+F 0 "#PWR0117" H 3550 3150 50  0001 C CNN
+F 1 "GND" V 3555 3272 50  0000 R CNN
+F 2 "" H 3550 3400 50  0001 C CNN
+F 3 "" H 3550 3400 50  0001 C CNN
+	1    3550 3400
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0118
 U 1 1 60CB66AC
-P 3550 5600
-F 0 "#PWR0118" H 3550 5350 50  0001 C CNN
-F 1 "GND" V 3555 5472 50  0000 R CNN
-F 2 "" H 3550 5600 50  0001 C CNN
-F 3 "" H 3550 5600 50  0001 C CNN
-	1    3550 5600
+P 3550 5800
+F 0 "#PWR0118" H 3550 5550 50  0001 C CNN
+F 1 "GND" V 3555 5672 50  0000 R CNN
+F 2 "" H 3550 5800 50  0001 C CNN
+F 3 "" H 3550 5800 50  0001 C CNN
+	1    3550 5800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -602,13 +602,13 @@ $EndComp
 Wire Wire Line
 	7000 1500 7000 2200
 Wire Wire Line
-	2800 4800 4200 4800
+	2800 4200 4200 4200
 Wire Wire Line
-	2800 5000 4200 5000
+	2800 4000 4200 4000
 Wire Wire Line
-	2800 5200 4200 5200
+	2800 3800 4200 3800
 Wire Wire Line
-	2800 5400 4200 5400
+	2800 3600 4200 3600
 Text Label 7400 7100 1    50   ~ 0
 VDD_diff
 Text Label 8000 7100 1    50   ~ 0
@@ -858,8 +858,8 @@ VoOi
 Text HLabel 1100 9850 0    50   Input ~ 0
 Vin
 Wire Wire Line
-	2800 5600 3000 5600
-Text Label 2900 5600 0    50   ~ 0
+	2800 4400 3000 4400
+Text Label 2900 4400 0    50   ~ 0
 Vbi
 Wire Wire Line
 	12650 1800 12150 1800
@@ -978,16 +978,16 @@ pD
 Text Label 13500 9000 0    50   ~ 0
 nD
 Wire Wire Line
-	1300 5150 1850 5150
+	1300 3950 1850 3950
 Wire Wire Line
-	1300 5250 1850 5250
+	1300 4050 1850 4050
 Wire Wire Line
-	1300 5350 1850 5350
-Text Label 1450 5150 0    50   ~ 0
+	1300 4150 1850 4150
+Text Label 1450 3950 0    50   ~ 0
 VM_diff
-Text Label 1450 5250 0    50   ~ 0
+Text Label 1450 4050 0    50   ~ 0
 VM_M
-Text Label 1450 5350 0    50   ~ 0
+Text Label 1450 4150 0    50   ~ 0
 VM_O
 Wire Wire Line
 	12150 3900 12650 3900
@@ -1234,7 +1234,7 @@ F 3 "~" H 11950 6450 50  0001 C CNN
 $EndComp
 Connection ~ 11950 6450
 Wire Wire Line
-	1300 4800 1850 4800
-Text Label 1700 4800 2    50   ~ 0
+	1300 3600 1850 3600
+Text Label 1700 3600 2    50   ~ 0
 VDD_io
 $EndSCHEMATC

@@ -794,4 +794,32 @@ F 3 "~" H 5275 10650 50  0001 C CNN
 	1    5275 10650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x01_Female J?
+U 1 1 614857E4
+P 4125 7925
+F 0 "J?" H 4153 7951 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 4153 7860 50  0000 L CNN
+F 2 "banana:Banana_test_point_4mm" H 4125 7925 50  0001 C CNN
+F 3 "~" H 4125 7925 50  0001 C CNN
+	1    4125 7925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 7925 3925 7925
+$Comp
+L power:GND #PWR?
+U 1 1 61489B9C
+P 2975 7925
+AR Path="/61489B9C" Ref="#PWR?"  Part="1" 
+AR Path="/60B90C78/61489B9C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2975 7675 50  0001 C CNN
+F 1 "GND" H 2980 7752 50  0000 C CNN
+F 2 "" H 2975 7925 50  0001 C CNN
+F 3 "" H 2975 7925 50  0001 C CNN
+	1    2975 7925
+	0    1    1    0   
+$EndComp
+Text Label 3375 7925 0    50   ~ 0
+gnd
 $EndSCHEMATC
